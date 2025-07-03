@@ -3,8 +3,8 @@
 set -e
 
 APP_DIR=~/gost-manager
-GOST_VERSION="v3.0.0-nightly.20250218"
-GOST_FILENAME="gost_3.0.0-nightly.20250218_linux_amd64.tar.gz"
+GOST_VERSION="v3.1.0-nightly.20250702"
+GOST_FILENAME="gost_3.1.0-nightly.20250702_linux_amd64.tar.gz"
 GOST_URL="https://github.com/go-gost/gost/releases/download/${GOST_VERSION}/${GOST_FILENAME}"
 DOCKER_IMAGE_NAME="gost-manager"
 DOCKER_CONTAINER_NAME="gost-panel"
